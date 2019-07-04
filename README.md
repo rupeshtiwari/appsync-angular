@@ -108,4 +108,4 @@ Run below script
 `amplify publish`
 
 
-![App Running over cloud]()
+![App Running over cloud](https://github.com/rupeshtiwari/appsync-angular/blob/master/docs/app-running-on-client.PNG)
