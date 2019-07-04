@@ -103,4 +103,7 @@ You can now publish your app using the following command:Command: amplify publis
 
 ### Publish App over Cloud
 
+Run below script
+
+`amplify publish`
 
