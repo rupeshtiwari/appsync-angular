@@ -1,0 +1,19 @@
+{
+    "js": {
+        "awscloudformation": {
+            "AuthRoleName": "appsync-angular-js-20190704100833-authRole",
+            "UnauthRoleArn": "arn:aws:iam::928360579543:role/appsync-angular-js-20190704100833-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::928360579543:role/appsync-angular-js-20190704100833-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "appsync-angular-js-20190704100833-deployment",
+            "UnauthRoleName": "appsync-angular-js-20190704100833-unauthRole",
+            "StackName": "appsync-angular-js-20190704100833",
+            "StackId": "arn:aws:cloudformation:us-east-1:928360579543:stack/appsync-angular-js-20190704100833/35e90560-9e65-11e9-9621-0a129e2750f4"
+        },
+        "categories": {
+            "auth": {
+                "appsyncangular98c1c87b": {}
+            }
+        }
+    }
+}

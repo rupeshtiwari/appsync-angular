@@ -1,0 +1,4 @@
+{
+    "AppSyncApiName": "appsyncAngular",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST"
+}
