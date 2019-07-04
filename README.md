@@ -87,3 +87,20 @@ API Yes
 
 ```
 
+## Add Hosting
+
+
+```sh
+
+         amplify add hosting? Select the environment setup: DEV (S3 only with HTTP)
+? hosting bucket name my-appsync-todo-app? index doc for the website index.html
+? error doc for the website index.html
+You can now publish your app using the following command:Command: amplify publish
+
+
+
+```
+
+### Publish App over Cloud
+
+
