@@ -1,1 +1,36 @@
-<p>todo works!</p>
+<div>
+    <h1 class="page-header">AppSync API Demo
+
+    </h1>
+    <hr>
+
+
+    <div class="form-group">
+
+        <input type="text" #todoName class="form-control" id="todo" aria-describedby="emailHelp"
+            placeholder="Enter Todo">
+        <small id="emailHelp" class="form-text text-muted">We'll enter your things that you want to do.</small>
+    </div>
+
+    <div>
+        <button class="btn btn-primary" (click)="createTodo(todoName)">Create Todo</button>
+    </div>
+    <br>
+
+    <div class="list-group">
+        <li class="list-group-item" *ngFor="let todo of allTodos">
+
+            <label>Title:</label>
+            <span class="text text-primary"> {{todo.name}}</span>
+            <div>
+                <label>Description:</label>
+                <span class="text text-info"> {{todo.description}}</span>
+            </div>
+
+            <div>
+                <label>Status:</label>
+                <span class="text text-warning"> {{todo.completed ? "Completed":"Pending"}}</span>
+            </div>
+        </li>
+    </div>
+</div>

@@ -10,7 +10,7 @@ import { TodoComponent } from './todo/todo.component';
 @NgModule({
   declarations: [AppComponent, AuthComponent, TodoComponent],
   imports: [BrowserModule, AppRoutingModule, AmplifyAngularModule],
-  providers: [],
-  bootstrap: [AppComponent, AmplifyService]
+  providers: [AmplifyService],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
